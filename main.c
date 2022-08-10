@@ -33,7 +33,7 @@ void adjust_weights(double *w, const double *x, double y, double t, size_t n)
 
 int main(__attribute__((unused)) int argC, __attribute__((unused)) char **argV)
 {
-  // learning AND function
+  // learning OR function
   const double in[8][3] = {{0, 0, 0}, {0, 0, 1}, {0, 1, 0}, {0, 1, 1},
                            {1, 0, 0}, {1, 0, 1}, {1, 1, 0}, {1, 1, 1}};
 
